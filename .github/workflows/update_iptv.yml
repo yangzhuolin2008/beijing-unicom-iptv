@@ -22,13 +22,15 @@ jobs:
         python-version: '3.x'
 
     - name: Run update script
-      run: python update_iptv_script.py
+      run: |
+        python update_iptv_script.py
+        python update_rtsp_script.py
 
     - name: Commit and push changes
       run: |
         git config --global user.name 'github-actions[bot]'
         git config --global user.email 'github-actions[bot]@users.noreply.github.com'
-        git add iptv.m3u
+        git add iptv.m3u iptv-rtsp.m3u
         # Check if there are changes to commit
         if git diff --staged --quiet; then
           echo "No changes to commit"
