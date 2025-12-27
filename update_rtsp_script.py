@@ -1,4 +1,5 @@
 import os
+import re
 import urllib.request
 import urllib.error
 
@@ -49,6 +50,13 @@ def update_rtsp():
             new_lines.append(line)
         else:
             new_lines.append(line)
+            
+        # CDN Acceleration: raw.githubusercontent.com -> cdn.jsdelivr.net
+        # Handle "refs/heads/branch" format
+        if new_lines:
+             new_lines[-1] = re.sub(r'https://raw\.githubusercontent\.com/([^/]+)/([^/]+)/refs/heads/([^/]+)/', r'https://cdn.jsdelivr.net/gh/\1/\2@\3/', new_lines[-1])
+             # Handle standard "user/repo/branch" format (fallback)
+             new_lines[-1] = re.sub(r'https://raw\.githubusercontent\.com/([^/]+)/([^/]+)/([^/]+)/', r'https://cdn.jsdelivr.net/gh/\1/\2@\3/', new_lines[-1])
 
     with open(output_file, "w", encoding="utf-8") as f:
         f.write("\n".join(new_lines))

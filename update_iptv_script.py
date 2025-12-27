@@ -60,12 +60,17 @@ def update_iptv():
             
             new_lines.append(line)
             
-        elif "rtp://" in line:
-            # Replace rtp:// with http proxy
+        # Replace rtp:// with http proxy
+        if "rtp://" in line:
             line = line.replace("rtp://", "http://192.168.11.1:5140/rtp/")
-            new_lines.append(line)
-        else:
-            new_lines.append(line)
+        
+        # CDN Acceleration: raw.githubusercontent.com -> cdn.jsdelivr.net
+        # Handle "refs/heads/branch" format
+        line = re.sub(r'https://raw\.githubusercontent\.com/([^/]+)/([^/]+)/refs/heads/([^/]+)/', r'https://cdn.jsdelivr.net/gh/\1/\2@\3/', line)
+        # Handle standard "user/repo/branch" format (fallback)
+        line = re.sub(r'https://raw\.githubusercontent\.com/([^/]+)/([^/]+)/([^/]+)/', r'https://cdn.jsdelivr.net/gh/\1/\2@\3/', line)
+
+        new_lines.append(line)
 
     # Write output
     with open(output_file, "w", encoding="utf-8") as f:
