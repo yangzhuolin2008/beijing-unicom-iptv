@@ -58,8 +58,6 @@ def update_iptv():
             # Original logic here was to match channel name and update catchup-source.
             # This has been removed.
             
-            new_lines.append(line)
-            
         # Replace rtp:// with http proxy
         if "rtp://" in line:
             line = line.replace("rtp://", "http://192.168.11.1:5140/rtp/")
