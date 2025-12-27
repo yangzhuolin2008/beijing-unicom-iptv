@@ -1,0 +1,43 @@
+<SOAP-ENV:Envelope xmlns:SOAP-ENV="http://schemas.xmlsoap.org/soap/envelope/" xmlns:SOAP-ENC="http://schemas.xmlsoap.org/soap/encoding/" xmlns:cwmp="urn:dslforum-org:cwmp-1-0" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"><SOAP-ENV:Header><cwmp:ID SOAP-ENV:mustUnderstand="1">1</cwmp:ID></SOAP-ENV:Header><SOAP-ENV:Body>
+    <cwmp:SetParameterValues>
+      <ParameterList SOAP-ENC:arrayType="cwmp:ParameterValueStruct[9]">
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.STUNEnable</Name>
+          <Value xsi:type="xsd:string">1</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.STUNServerAddress</Name>
+          <Value xsi:type="xsd:string">124.65.10.184</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.STUNServerPort</Name>
+          <Value xsi:type="xsd:string">3478</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.STUNMaximumKeepAlivePeriod</Name>
+          <Value xsi:type="xsd:unsignedInt">180</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.STUNMinimumKeepAlivePeriod</Name>
+          <Value xsi:type="xsd:unsignedInt">180</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.STUNUsername</Name>
+          <Value xsi:type="xsd:string">F900041100136420000098EE8C0FC1BE</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.STUNPassword</Name>
+          <Value xsi:type="xsd:string">STBAdmin</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.ConnectionRequestUsername</Name>
+          <Value xsi:type="xsd:string">F900041100136420000098EE8C0FC1BE</Value>
+        </ParameterValueStruct>
+        <ParameterValueStruct>
+          <Name>Device.ManagementServer.ConnectionRequestPassword</Name>
+          <Value xsi:type="xsd:string">STBAdmin</Value>
+        </ParameterValueStruct>
+      </ParameterList>
+      <ParameterKey>set stunconf</ParameterKey>
+    </cwmp:SetParameterValues>
+  </SOAP-ENV:Body></SOAP-ENV:Envelope>
