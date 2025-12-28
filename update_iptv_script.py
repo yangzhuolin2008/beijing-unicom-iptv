@@ -5,8 +5,8 @@ import urllib.error
 
 def update_iptv():
     # Configuration
-    url = "https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv/refs/heads/main/iptv-multicast.m3u"
-    url_corrected = "https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv/main/iptv-multicast.m3u"
+    url = "https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/refs/heads/main/iptv-multicast.m3u"
+    url_corrected = "https://raw.githubusercontent.com/zzzz0317/beijing-unicom-iptv-playlist/main/iptv-multicast.m3u"
     
     output_file = "iptv.m3u"
     
