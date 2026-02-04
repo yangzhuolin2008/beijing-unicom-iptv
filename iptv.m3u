@@ -54,10 +54,10 @@ http://192.168.11.1:5140/rtp/239.3.1.151:8144
 #EXTINF:-1 channel-number="18" tvg-id="18" tvg-name="CCTV-5+" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/CCTV/CCTV-5+.png" group-title="央视" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221225819/10000100000000060000000000025043_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",CCTV-5+
 http://192.168.11.1:5140/rtp/239.3.1.130:8004
 
-#EXTINF:-1 channel-number="19" tvg-id="19" tvg-name="聚鲨环球精选" group-title="购物" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226114/10000100000000060000000000930190_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",聚鲨环球精选
+#EXTINF:-1 channel-number="19" tvg-id="19" tvg-name="聚鲨环球精选" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/QiTa/GouWu_JuShaHuanQiuJingXuan.png" group-title="购物" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226114/10000100000000060000000000930190_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",聚鲨环球精选
 http://192.168.11.1:5140/rtp/239.3.1.179:8001
 
-#EXTINF:-1 channel-number="20" tvg-id="20" tvg-name="央广购物" group-title="购物" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226146/10000100000000060000000001189968_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",央广购物
+#EXTINF:-1 channel-number="20" tvg-id="20" tvg-name="央广购物" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/QiTa/GouWu_YangGuangGouWu.png" group-title="购物" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226146/10000100000000060000000001189968_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",央广购物
 http://192.168.11.1:5140/rtp/239.3.1.222:8001
 
 #EXTINF:-1 channel-number="21" tvg-id="21" tvg-name="BRTV北京卫视高清" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/WeiShi/BeiJing.png" group-title="北京" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221225870/10000100000000060000000000025099_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",BRTV北京卫视高清
@@ -87,14 +87,11 @@ http://192.168.11.1:5140/rtp/239.3.1.189:8000
 #EXTINF:-1 channel-number="29" tvg-id="29" tvg-name="BRTV新闻高清" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/BRTV/BRTV_XinWen.png" group-title="北京" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226092/10000100000000060000000000804251_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",BRTV新闻高清
 http://192.168.11.1:5140/rtp/239.3.1.159:8000
 
-#EXTINF:-1 channel-number="30" tvg-id="30" tvg-name="家有购物精选" group-title="购物" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226168/10000100000000060000000001558173_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",家有购物精选
+#EXTINF:-1 channel-number="30" tvg-id="30" tvg-name="家有购物精选" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/QiTa/GouWu_JiaYouGouWu.png" group-title="购物" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226168/10000100000000060000000001558173_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",家有购物精选
 http://192.168.11.1:5140/rtp/239.3.1.186:8001
 
-#EXTINF:-1 channel-number="32" tvg-id="32" tvg-name="优购物" group-title="购物" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226152/10000100000000060000000001234685_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",优购物
+#EXTINF:-1 channel-number="32" tvg-id="32" tvg-name="优购物" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/QiTa/GouWu_YouGouWu.png" group-title="购物" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226152/10000100000000060000000001234685_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",优购物
 http://192.168.11.1:5140/rtp/239.3.1.180:8001
-
-#EXTINF:-1 channel-number="33" tvg-id="33" tvg-name="时尚购物" group-title="购物" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226165/10000100000000060000000001234687_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",时尚购物
-http://192.168.11.1:5140/rtp/239.3.1.181:8001
 
 #EXTINF:-1 channel-number="34" tvg-id="34" tvg-name="萌宠TV" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/QiTa/BJIPTV_MengChongTV.png" group-title="轮播" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226071/10000100000000060000000000405011_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",萌宠TV
 http://192.168.11.1:5140/rtp/239.3.1.102:8001
@@ -117,10 +114,10 @@ http://192.168.11.1:5140/rtp/239.3.1.249:8001
 #EXTINF:-1 channel-number="41" tvg-id="41" tvg-name="湖南卫视高清" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/WeiShi/HuNan.png" group-title="卫视" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221225871/10000100000000060000000000025095_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",湖南卫视高清
 http://192.168.11.1:5140/rtp/239.3.1.132:8012
 
-#EXTINF:-1 channel-number="42" tvg-id="42" tvg-name="家有购物" group-title="购物" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226154/10000100000000060000000001234688_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",家有购物
+#EXTINF:-1 channel-number="42" tvg-id="42" tvg-name="家有购物" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/QiTa/GouWu_JiaYouGouWu.png" group-title="购物" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226154/10000100000000060000000001234688_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",家有购物
 http://192.168.11.1:5140/rtp/239.3.1.185:8001
 
-#EXTINF:-1 channel-number="43" tvg-id="43" tvg-name="央广购物精选" group-title="购物" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226159/10000100000000060000000001189974_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",央广购物精选
+#EXTINF:-1 channel-number="43" tvg-id="43" tvg-name="央广购物精选" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/QiTa/GouWu_YangGuangGouWu.png" group-title="购物" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226159/10000100000000060000000001189974_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",央广购物精选
 http://192.168.11.1:5140/rtp/239.3.1.223:8001
 
 #EXTINF:-1 channel-number="44" tvg-id="44" tvg-name="江苏卫视高清" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/WeiShi/JiangSu.png" group-title="卫视" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221225881/10000100000000060000000000025507_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",江苏卫视高清
@@ -138,7 +135,7 @@ http://192.168.11.1:5140/rtp/239.3.1.138:8044
 #EXTINF:-1 channel-number="48" tvg-id="48" tvg-name="天津卫视高清" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/WeiShi/TianJin.png" group-title="卫视" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221225984/10000100000000060000000000176931_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",天津卫视高清
 http://192.168.11.1:5140/rtp/239.3.1.141:1234
 
-#EXTINF:-1 channel-number="49" tvg-id="49" tvg-name="聚鲨环球" group-title="购物" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226166/10000100000000060000000001476155_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",聚鲨环球
+#EXTINF:-1 channel-number="49" tvg-id="49" tvg-name="聚鲨环球" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/QiTa/GouWu_JuShaHuanQiuJingXuan.png" group-title="购物" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226166/10000100000000060000000001476155_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",聚鲨环球
 http://192.168.11.1:5140/rtp/239.3.1.160:8001
 
 #EXTINF:-1 channel-number="50" tvg-id="50" tvg-name="山东卫视高清" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/WeiShi/ShanDong.png" group-title="卫视" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226002/10000100000000060000000000205202_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",山东卫视高清
@@ -167,12 +164,6 @@ http://192.168.11.1:5140/rtp/239.3.1.123:8164
 
 #EXTINF:-1 channel-number="59" tvg-id="59" tvg-name="河南卫视高清" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/WeiShi/HeNan.png" group-title="卫视" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226189/382569577.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",河南卫视高清
 http://192.168.11.1:5140/rtp/239.3.1.50:8184
-
-#EXTINF:-1 channel-number="60" tvg-id="60" tvg-name="优购物精选" group-title="购物" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226171/10000100000000060000000001311653_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",优购物精选
-http://192.168.11.1:5140/rtp/239.3.1.190:8001
-
-#EXTINF:-1 channel-number="61" tvg-id="61" tvg-name="时尚购物精选" group-title="购物" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226169/10000100000000060000000001311650_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",时尚购物精选
-http://192.168.11.1:5140/rtp/239.3.1.191:8001
 
 #EXTINF:-1 channel-number="62" tvg-id="62" tvg-name="甘肃卫视高清" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/WeiShi/GanSu.png" group-title="卫视" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226197/397709753.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",甘肃卫视高清
 http://192.168.11.1:5140/rtp/239.3.1.201:8180
@@ -318,23 +309,26 @@ http://192.168.11.1:5140/rtp/239.3.1.196:9012
 #EXTINF:-1 channel-number="207" tvg-id="207" tvg-name="少儿动画" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/QiTa/IPTV_ShaoErDongHua.png" group-title="轮播" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221225859/10000100000000060000000000025083_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",少儿动画
 http://192.168.11.1:5140/rtp/239.3.1.199:9000
 
-#EXTINF:-1 channel-number="301" tvg-id="301" tvg-name="房山电视台" group-title="区县" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226077/10000100000000060000000000405017_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",房山电视台
+#EXTINF:-1 channel-number="301" tvg-id="301" tvg-name="房山电视台" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/QiTa/QuXian_FangShan.png" group-title="区县" zz-definition="HD" catchup="default" catchup-source="rtsp://61.135.88.136/TVOD/88888892/224/3221226077/10000100000000060000000000405017_0.smil?playseek=${(b)yyyyMMddHHmmss}-${(e)yyyyMMddHHmmss}",房山电视台
 http://192.168.11.1:5140/rtp/239.3.1.96:8001
 
-#EXTINF:-1 channel-number="302" tvg-id="302" tvg-name="北京朝阳" group-title="区县" zz-definition="HD",北京朝阳
+#EXTINF:-1 channel-number="302" tvg-id="302" tvg-name="北京朝阳" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/QiTa/QuXian_ChaoYang.png" group-title="区县" zz-definition="HD",北京朝阳
 http://192.168.11.1:5140/rtp/239.3.1.163:8001
 
-#EXTINF:-1 channel-number="303" tvg-id="303" tvg-name="密云电视台" group-title="区县" zz-definition="HD",密云电视台
+#EXTINF:-1 channel-number="303" tvg-id="303" tvg-name="密云电视台" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/QiTa/QuXian_MiYun.png" group-title="区县" zz-definition="HD",密云电视台
 http://192.168.11.1:5140/rtp/239.3.1.154:8001
 
-#EXTINF:-1 channel-number="304" tvg-id="304" tvg-name="通州电视台" group-title="区县" zz-definition="HD",通州电视台
+#EXTINF:-1 channel-number="304" tvg-id="304" tvg-name="通州电视台" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/QiTa/QuXian_TongZhou.png" group-title="区县" zz-definition="HD",通州电视台
 http://192.168.11.1:5140/rtp/239.3.1.221:8001
 
-#EXTINF:-1 channel-number="305" tvg-id="305" tvg-name="延庆电视台" group-title="区县" zz-definition="SD",延庆电视台
+#EXTINF:-1 channel-number="305" tvg-id="305" tvg-name="延庆电视台" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/QiTa/QuXian_YanQing.png" group-title="区县" zz-definition="SD",延庆电视台
 http://192.168.11.1:5140/rtp/239.3.1.187:8001
 
-#EXTINF:-1 channel-number="306" tvg-id="306" tvg-name="门头沟电视台" group-title="区县" zz-definition="HD",门头沟电视台
+#EXTINF:-1 channel-number="306" tvg-id="306" tvg-name="门头沟电视台" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/QiTa/QuXian_MenTouGou.png" group-title="区县" zz-definition="HD",门头沟电视台
 http://192.168.11.1:5140/rtp/239.3.1.59:8001
+
+#EXTINF:-1 channel-number="307" tvg-id="307" tvg-name="平谷电视台" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/QiTa/QuXian_PingGu.png" group-title="区县" zz-definition="HD",平谷电视台
+http://192.168.11.1:5140/rtp/239.3.1.23:8001
 
 #EXTINF:-1 channel-number="320" tvg-id="320" tvg-name="快乐垂钓" tvg-logo="https://cdn.jsdelivr.net/gh/zzzz0317/beijing-unicom-iptv-playlist@main/img/QiTa/HuNan_KuaiLeChuiDiao.png" group-title="体验" zz-definition="HD",快乐垂钓
 http://192.168.11.1:5140/rtp/239.3.1.164:8001
